@@ -37,4 +37,4 @@ completion = client.chat.completions.create(
     ])
 
 with open(f"resumo.md", "w+") as md:
-    md.write(completion.choices[0].message.content)# AnalisadorDeVideos
+    md.write(completion.choices[0].message.content).py
